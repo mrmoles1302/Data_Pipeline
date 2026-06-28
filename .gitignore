@@ -22,3 +22,4 @@ __pycache__/
 # logs
 monitoring/logs/
 ingestion_report.json
+data/data_catalog.json
