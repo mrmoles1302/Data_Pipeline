@@ -1,9 +1,11 @@
-# Data
+# Root datasets
 datasets/
-data/raw/
 
-# ML models
-ml/models/
+# Project data
+data-engineering-olist/data/raw/
+
+# Models
+data-engineering-olist/ml/models/
 *.pkl
 
 # Python
