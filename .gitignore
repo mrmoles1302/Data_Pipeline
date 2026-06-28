@@ -21,3 +21,4 @@ __pycache__/
 
 # logs
 monitoring/logs/
+ingestion_report.json
