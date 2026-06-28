@@ -1,17 +1,18 @@
-# Root datasets
-datasets/
+# Raw datasets
+data/raw/
 
-# Project data
-data-engineering-olist/data/raw/
+# Generated outputs
+data/processed/
+data/curated/
 
 # Models
-data-engineering-olist/ml/models/
+ml/models/
 *.pkl
 
 # Python
 __pycache__/
 *.pyc
 
-# Env
+# Environment
 .env
 .venv
