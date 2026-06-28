@@ -1,0 +1,15 @@
+# Data
+datasets/
+data/raw/
+
+# ML models
+ml/models/
+*.pkl
+
+# Python
+__pycache__/
+*.pyc
+
+# Env
+.env
+.venv
