@@ -1,0 +1,13 @@
+pyspark
+pandas
+numpy
+pyarrow
+sqlalchemy
+psycopg2-binary
+streamlit
+scikit-learn
+great-expectations
+matplotlib
+plotly
+jupyter
+python-dotenv

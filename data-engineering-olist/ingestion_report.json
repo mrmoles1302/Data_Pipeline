@@ -1,0 +1,155 @@
+{
+  "files": [
+    {
+      "table": "customers",
+      "source": "/home/vignesh/projects/Data_Pipeline/datasets/olist_customers_dataset.csv",
+      "destination": "/home/vignesh/projects/Data_Pipeline/data-engineering-olist/data/raw/olist_customers_dataset.csv",
+      "rows": 99441,
+      "columns": 5,
+      "duplicates": 0,
+      "null_percentages": {
+        "customer_id": 0.0,
+        "customer_unique_id": 0.0,
+        "customer_zip_code_prefix": 0.0,
+        "customer_city": 0.0,
+        "customer_state": 0.0
+      },
+      "schema_valid": true
+    },
+    {
+      "table": "geolocation",
+      "source": "/home/vignesh/projects/Data_Pipeline/datasets/olist_geolocation_dataset.csv",
+      "destination": "/home/vignesh/projects/Data_Pipeline/data-engineering-olist/data/raw/olist_geolocation_dataset.csv",
+      "rows": 1000163,
+      "columns": 5,
+      "duplicates": 261831,
+      "null_percentages": {
+        "geolocation_zip_code_prefix": 0.0,
+        "geolocation_lat": 0.0,
+        "geolocation_lng": 0.0,
+        "geolocation_city": 0.0,
+        "geolocation_state": 0.0
+      },
+      "schema_valid": true
+    },
+    {
+      "table": "order_items",
+      "source": "/home/vignesh/projects/Data_Pipeline/datasets/olist_order_items_dataset.csv",
+      "destination": "/home/vignesh/projects/Data_Pipeline/data-engineering-olist/data/raw/olist_order_items_dataset.csv",
+      "rows": 112650,
+      "columns": 7,
+      "duplicates": 0,
+      "null_percentages": {
+        "order_id": 0.0,
+        "order_item_id": 0.0,
+        "product_id": 0.0,
+        "seller_id": 0.0,
+        "shipping_limit_date": 0.0,
+        "price": 0.0,
+        "freight_value": 0.0
+      },
+      "schema_valid": true
+    },
+    {
+      "table": "order_payments",
+      "source": "/home/vignesh/projects/Data_Pipeline/datasets/olist_order_payments_dataset.csv",
+      "destination": "/home/vignesh/projects/Data_Pipeline/data-engineering-olist/data/raw/olist_order_payments_dataset.csv",
+      "rows": 103886,
+      "columns": 5,
+      "duplicates": 0,
+      "null_percentages": {
+        "order_id": 0.0,
+        "payment_sequential": 0.0,
+        "payment_type": 0.0,
+        "payment_installments": 0.0,
+        "payment_value": 0.0
+      },
+      "schema_valid": true
+    },
+    {
+      "table": "order_reviews",
+      "source": "/home/vignesh/projects/Data_Pipeline/datasets/olist_order_reviews_dataset.csv",
+      "destination": "/home/vignesh/projects/Data_Pipeline/data-engineering-olist/data/raw/olist_order_reviews_dataset.csv",
+      "rows": 99224,
+      "columns": 7,
+      "duplicates": 0,
+      "null_percentages": {
+        "review_id": 0.0,
+        "order_id": 0.0,
+        "review_score": 0.0,
+        "review_comment_title": 0.8834,
+        "review_comment_message": 0.587,
+        "review_creation_date": 0.0,
+        "review_answer_timestamp": 0.0
+      },
+      "schema_valid": true
+    },
+    {
+      "table": "orders",
+      "source": "/home/vignesh/projects/Data_Pipeline/datasets/olist_orders_dataset.csv",
+      "destination": "/home/vignesh/projects/Data_Pipeline/data-engineering-olist/data/raw/olist_orders_dataset.csv",
+      "rows": 99441,
+      "columns": 8,
+      "duplicates": 0,
+      "null_percentages": {
+        "order_id": 0.0,
+        "customer_id": 0.0,
+        "order_status": 0.0,
+        "order_purchase_timestamp": 0.0,
+        "order_approved_at": 0.0016,
+        "order_delivered_carrier_date": 0.0179,
+        "order_delivered_customer_date": 0.0298,
+        "order_estimated_delivery_date": 0.0
+      },
+      "schema_valid": true
+    },
+    {
+      "table": "products",
+      "source": "/home/vignesh/projects/Data_Pipeline/datasets/olist_products_dataset.csv",
+      "destination": "/home/vignesh/projects/Data_Pipeline/data-engineering-olist/data/raw/olist_products_dataset.csv",
+      "rows": 32951,
+      "columns": 9,
+      "duplicates": 0,
+      "null_percentages": {
+        "product_id": 0.0,
+        "product_category_name": 0.0185,
+        "product_name_lenght": 0.0185,
+        "product_description_lenght": 0.0185,
+        "product_photos_qty": 0.0185,
+        "product_weight_g": 0.0001,
+        "product_length_cm": 0.0001,
+        "product_height_cm": 0.0001,
+        "product_width_cm": 0.0001
+      },
+      "schema_valid": true
+    },
+    {
+      "table": "sellers",
+      "source": "/home/vignesh/projects/Data_Pipeline/datasets/olist_sellers_dataset.csv",
+      "destination": "/home/vignesh/projects/Data_Pipeline/data-engineering-olist/data/raw/olist_sellers_dataset.csv",
+      "rows": 3095,
+      "columns": 4,
+      "duplicates": 0,
+      "null_percentages": {
+        "seller_id": 0.0,
+        "seller_zip_code_prefix": 0.0,
+        "seller_city": 0.0,
+        "seller_state": 0.0
+      },
+      "schema_valid": true
+    },
+    {
+      "table": "category_translation",
+      "source": "/home/vignesh/projects/Data_Pipeline/datasets/product_category_name_translation.csv",
+      "destination": "/home/vignesh/projects/Data_Pipeline/data-engineering-olist/data/raw/product_category_name_translation.csv",
+      "rows": 71,
+      "columns": 2,
+      "duplicates": 0,
+      "null_percentages": {
+        "product_category_name": 0.0,
+        "product_category_name_english": 0.0
+      },
+      "schema_valid": true
+    }
+  ]
+}
