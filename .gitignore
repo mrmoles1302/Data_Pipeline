@@ -1,4 +1,5 @@
 # Raw datasets
+datasets/
 data/raw/
 
 # Generated outputs
@@ -17,3 +18,6 @@ __pycache__/
 .env
 .venv
 .vscode/settings.json
+
+# logs
+monitoring/logs/
